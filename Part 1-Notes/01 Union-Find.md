@@ -349,13 +349,13 @@ Add a method `$find()$` to the union-find data type so that `$find(i)$` returns 
 
 For example, if one of the connected components is `$\{1, 2, 6, 9\}$`, then the `$find()$` method should return 9 for each of the four elements in the connected components.
 
-**Hint:** maintain an extra array to the weighted quick-union data structure that stores for each root `$i$` the large element in the connected component containing `$i$`.
+**Hint:** maintain an extra array to the weighted quick-union data structure that stores for each root `$i$` the large element in the connected component containing `i`.
 
 #### 6.2 Successor with delete.
 
-Given a set of n integers `$S={0,1,...,n-1}$` and a sequence of requests of the following form:
-- Remove `$x$` from `$S$`
-- Find the successor of `$x$`: the smallest `$y$` in `$S$` such that `$y≥x$`.
+Given a set of n integers `S={0,1,...,n-1}` and a sequence of requests of the following form:
+- Remove `x` from `S`
+- Find the successor of `x`: the smallest `y` in `S` such that `y≥x`.
 
 design a data type so that all operations (except construction) take logarithmic time or better in the worst case.
 
