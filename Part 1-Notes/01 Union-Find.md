@@ -321,7 +321,7 @@ When N is large, theory guarantees a sharp threshold p*.
 #### 5.5 Dynamic connectivity solution to estimate percolation threshold
 
 How to check whether an N-by-N system percolates?
-- Create an object for each site and name them 0 to` N^2-1 `.
+- Create an object for each site and name them 0 to` N<sub>2</sub>-1 `.
 - Sites are in same component if connected by open sites.
 - Percolates iff any site on bottom row is connected to site on top row.
 
